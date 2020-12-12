@@ -35,7 +35,7 @@
 
 == Connectivity
 
-** Ensure that you can get to your ServiceNow instance from the CloudForms server.
+** Ensure that you can get to your ServiceNow instance from the CS server.
 
 *** Try this command to ensure that you can return a JSON list of Linux CMDB records:
 
@@ -52,6 +52,6 @@ NOTE: If this command is failing then it is possible that you will need a proxy 
 <<top>>
 
 == Open an Issue
-** Still stuck? Open an issue here with a detailed description of your problem: link:https://github.com/ramrexx/ServiceNow_CMDB/issues[Open an issue]
+** Still stuck? Open an issue here with a detailed description of your problem: link:https://github.com/prasadanvekar/ServiceNow_CMDB/issues[Open an issue]
 
 <<top>>
