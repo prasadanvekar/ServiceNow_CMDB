@@ -17,9 +17,9 @@
 -------------------------------------------------------------------------------
 ////
 
-= CloudForms ServiceNow_CMDB
+= ServiceNow_CMDB
 
-The purpose of this project is to provide a starting point for integrating Red Hat (R) https://www.redhat.com/en/technologies/cloud-computing/cloudforms[Red Hat CloudForms] and ServiceNow's CMDB management.
+
 
 
 == Table of Contents
@@ -39,12 +39,12 @@ image:documentation/images/overview.png[link=documentation/images/overview.png]
 
 == Installation Steps
 
-IMPORTANT: You MUST have the link:https://github.com/rhtconsulting/cfme-rhconsulting-scripts.git[Consulting Rake Scripts] installed on your CloudForms appliance first!
+IMPORTANT: You MUST have the link:https://github.com/prasadanvekar/cfme-rhconsulting-scripts.git[Consulting Rake Scripts] installed on your appliance first!
 
 === Clone the Repo
 
  cd /root
- git clone https://github.com/ramrexx/ServiceNow_CMDB.git
+ git clone https://github.com/prasadanvekar/ServiceNow_CMDB.git
 
 === Import the Automate Domain
 
@@ -56,7 +56,7 @@ IMPORTANT: You MUST have the link:https://github.com/rhtconsulting/cfme-rhconsul
 
 === Update Automate StateMachine
 
-* Log into your CloudForms/ManageIQ UI.
+* Log into your ManageIQ UI.
 * Navigate to Automate / ServiceNow_CMDB / Integration / ServiceNow / CMDB / StateMachines
 ** Update the *StateMachine* class schema with your ServiceNow instance information (i.e. dev?????.service-now.com) and credentials.
 ** Add proxy_url if necessary.
@@ -67,6 +67,6 @@ image:documentation/images/snow-automate-schema.png[link=documentation/images/sn
 
 == Contribute
 
-Have an idea and want to help? Fork the repo and link:https://github.com/ramrexx/ServiceNow_CMDB/pulls[Submit a pull request]
+Have an idea and want to help? Fork the repo and link:https://github.com/prasadanvekar/ServiceNow_CMDB/pulls[Submit a pull request]
 
 <<top>>
