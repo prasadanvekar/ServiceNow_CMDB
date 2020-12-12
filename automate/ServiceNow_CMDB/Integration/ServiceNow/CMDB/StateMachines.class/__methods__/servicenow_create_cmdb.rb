@@ -110,7 +110,7 @@ end
 
 def get_comments
   comments =  "Vendor: #{@object.vendor}\n"
-  comments += "CloudForms: #{$evm.root['miq_server'].name}\n"
+  comments += "CS: #{$evm.root['miq_server'].name}\n"
   comments += "Tags: #{@object.tags.inspect}\n"
 end
 
