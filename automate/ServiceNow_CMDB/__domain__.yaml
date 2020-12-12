@@ -4,7 +4,7 @@ version: 1.0
 object:
   attributes:
     name: ServiceNow_CMDB
-    description: CloudForms ServiceNow CMDB Management Integration
+    description: ServiceNow CMDB Management Integration
     display_name: 
     system: false
     priority: 2
